@@ -1,0 +1,1 @@
+# terraform-huaweicloud-cdn-domain
