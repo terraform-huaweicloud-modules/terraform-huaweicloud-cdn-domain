@@ -28,7 +28,7 @@ module "example" {
 | business_type  | The service type, valid values are web, download and video  | string  | `""`  | yes  |
 | origin_type  | The origin server type, valid values are ipaddr, domain, and obs_bucket  | string  | `""`  | yes  |
 | ip_or_domain  | The domain name or IP address of the origin server  | string  | `""`  | yes  |
-| active_standby  | Whether an origin server is active or standby(1: active; 0: standby)  | string  | 1  | yes  |
+| active_standby  | Whether an origin server is active or standby(1: active; 0: standby)  | int  | 1  | yes  |
 
 
 ## Outputs
